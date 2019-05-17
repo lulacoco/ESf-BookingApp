@@ -1,3 +1,3 @@
 # ESf-BookingApp
 
-##Prototype of a booking.com application
+Prototype of a booking.com application
