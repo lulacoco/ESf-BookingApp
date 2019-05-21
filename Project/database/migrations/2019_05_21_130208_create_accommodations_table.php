@@ -4,11 +4,11 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAccomodationsTable extends Migration
+class CreateAccommodationsTable extends Migration
 {
     public function up()
     {
-        Schema::create('accomodations', function (Blueprint $table) {
+        Schema::create('accommodations', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('country');
@@ -20,6 +20,6 @@ class CreateAccomodationsTable extends Migration
     }
     public function down()
     {
-        Schema::dropIfExists('accomodations');
+        Schema::dropIfExists('accommodations');
     }
 }
